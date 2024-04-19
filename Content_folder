@@ -93,3 +93,41 @@ https://www.programiz.com/python-programming/directoryLinks to an external site.
 #python #directory #terminal #pathway #pythonimports 
 
 Author: Joe Bui
+
+Directory,"import os
+os.getcwd() # get's current working directory.
+os.listdir() # makes a list of visible files in directory.
+os.chdir(path) # change's current working directory.
+",None,"#os,#directory,#path","CREATED: 2024-03-31 23:41:06.682445, Eastern Daylight Time"
+Author: Noah Lee
+
+Web Scraping,"from bs4 import BeautifulSoup
+import lxml
+
+with open(""website.html"", encoding=""utf8"") as file:
+    contents = file.read()
+
+soup = BeautifulSoup(contents, ""html.parser"")
+print(soup.title.string)
+",None,"#webscraping,#beautifulsoup","CREATED: 2024-03-31 23:41:06.682445, Eastern Daylight Time"
+Author: Noah Lee
+
+API,"import requests
+
+response = requests.get(url=""http://api.open-notify.org/iss-now.json"")
+response.raise_for_status()
+
+longitude = response.json()[""iss_position""][""longitude""]
+latitude = response.json()[""iss_position""][""latitude""]
+iss_position = (longitude, latitude)
+print(iss_position)
+
+parameters = {
+    ""lat"": 12,
+    ""lng"": 13,
+    ""formatted"": 0
+}
+
+response = requests.get(url=""http://api.open-notify.org/iss-now.json"", params=parameters)
+",None,"#API,#requests","CREATED: 2024-03-31 23:41:06.682445, Eastern Daylight Time"
+Author: Noah Lee
