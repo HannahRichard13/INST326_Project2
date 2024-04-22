@@ -2,7 +2,7 @@ Noah Lee, Joe Bui, Hannah Richard, Fayez Atufa
 
 Project Title:
 
-NST326_Project2
+INST326_Project2
 Addition of the Snippet Class
 
 Project Description:
